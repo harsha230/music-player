@@ -298,9 +298,10 @@ main{
 }
 
 .station-images-container{
-    display: grid;
+        display: grid;
 	grid-gap: 20px;
-	grid-template-columns:repeat(auto-fill, minmax(100px,1fr));
+	grid-template-columns: minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr) ;
+        overflow-x: scroll;
 
 }
 #stations-img{
@@ -875,11 +876,7 @@ aside{
 			
 			
 }
-@media only screen and (max-width: 1294px){
-	.station-images-container {
-		display: none;
-	}
-}
+
 
 @media only screen and (max-width: 1157px) {
 		 .queue-info{
@@ -1252,7 +1249,8 @@ aside{
 			width: 52%;
 		}
 		aside{
-			
+			top: 8vh;
+                      height: 100vh;
 		    margin-left: 3%;
 		    width: 23%;
 		    min-width: 17%;
@@ -1754,7 +1752,8 @@ aside{
 			width: 60%;
 		}
 		aside{
-			
+			top: 7vh;
+            height: 100vh;
 		    margin-left: 3%;
 		    width: 34%;
 		    min-width: 17%;
