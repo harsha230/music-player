@@ -1328,6 +1328,10 @@ aside{
 	
 	display: none;
     }
+	#content{
+	 margin-top: 20px;
+	 margin-left: 5%;
+}
     .font-queue-num{
 	font-size: 0.6rem;
 
