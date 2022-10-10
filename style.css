@@ -445,7 +445,8 @@ main{
 .latest-english-container{
 	display: grid;
 	grid-gap: 1rem;
-	grid-template-columns: repeat(auto-fit,minmax(5rem,1fr));
+	grid-template-columns: minmax(5rem,1fr) minmax(5rem,1fr) minmax(5rem,1fr) minmax(5rem,1fr) minmax(5rem,1fr) minmax(5rem,1fr) minmax(5rem,1fr);
+        overflow-x: scroll;
 }
 .latest-english-img img{
 	width: 100%;
