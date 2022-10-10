@@ -291,12 +291,16 @@ main{
 
 .artist-image{
 	position: relative;
+	filter: grayscale(35%);
 }
 
 .artist-image:hover .play-icon{
    color: white;
 }
-
+.artist-image:hover{
+	
+	filter: grayscale(0%);
+}
 .station-images-container{
         display: grid;
 	grid-gap: 20px;
